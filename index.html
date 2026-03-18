@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Portfolio – Home</title>
+ <meta property="og:title" content="Ilaria Mansi – Junior UX/UI Designer">
+<meta property="og:description" content="Portfolio UX/UI con case study di redesign, ricerca utenti e progettazione di interfacce digitali.">
+<meta property="og:image" content="https://ilariamansi.github.io/portfolio/assets/img/home/art.jpg">
+<meta property="og:url" content="https://ilariamansi.github.io/portfolio/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Ilaria Mansi Portfolio">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,600&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="assets/img/favicon/favicon.png" sizes="any">
+
+</head>
+
+<body class="is-home">
+ <main id="top"></main> 
+  
+  <!-- NAV -->
+ <header class="nav" role="banner">
+  <div class="container nav__inner">
+    <a class="nav__logo" href="#top" aria-label="Home">
+      <img class="logo is-mark" src="assets/img/logo/im-mark-light.svg" alt="IM">
+      <img class="logo is-word" src="assets/img/logo/im-wordmark-light.svg" alt="Ilaria Mansi">
+    </a>
+
+    <nav class="nav__links" aria-label="Menu principale">
+      <a href="about.html">about</a>
+      <a href="index.html#projects">work</a>
+      <a href="contact.html">contact</a>
+      <a href="cv.html">CV</a>
+    </nav>
+
+    <input class="navToggle" type="checkbox" id="navToggle">
+
+    <label class="nav__burger" for="navToggle" aria-label="Apri menu">
+      <span class="nav__burgerIcon" aria-hidden="true"></span>
+    </label>
+  </div>
+</header>
+
+<div class="navOverlay" aria-hidden="true">
+  <nav class="navOverlay__panel" aria-label="Menu mobile">
+    <a href="about.html">about</a>
+    <a href="index.html#projects">work</a>
+    <a href="contact.html">contact</a>
+    <a href="cv.html">CV</a>
+  </nav>
+</div>
+  
+
+ <!-- HERO (sezione separata, mantiene arch come sfondo) -->
+<section id="top" class="heroSection" aria-label="Hero">
+  <img class="heroSection__arch" src="assets/img/home/art.jpg" alt="" aria-hidden="true">
+  <div class="heroSection__overlay" aria-hidden="true"></div>
+
+  <div class="container hero">
+    <div class="hero__left">
+      <div class="hero__stack">
+        <h1 class="hero__title">Ilaria Mansi</h1>
+        <p class="hero__sub">Junior UX/UI Designer</p>
+        <p class="hero__statement">Creo interfacce chiare, dove arte e struttura lavorano insieme.</p>
+
+ <div class="hero__scroll">
+  <span class="hero__scrollArrow">↓</span>
+  <span class="hero__scrollText">SCORRI</span>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SALOTTO (sezione separata, statica, senza step/opacity) -->
+<section class="salottoSection" aria-label="Salotto">
+  <div class="container salotto">
+    <div class="salotto__stack">
+      <h2 class="salotto__h2">Perché ho scelto il design.</h2>
+
+      <p class="salotto__p">
+        Arrivo da anni di lavoro a contatto con le persone.<br>
+        Ho imparato che quando qualcosa non è chiaro, si crea distanza.
+      </p>
+
+      <p class="salotto__p">
+        Nel digitale faccio lo stesso:<br>
+        capisco il problema, metto ordine, costruisco percorsi semplici.
+      </p>
+
+      <p class="salotto__p">
+        Amo l’arte in tutte le sue forme.<br>
+        Lo UX/UI è il punto in cui estetica e struttura si incontrano.
+      </p>
+
+      <div class="salotto__cta">
+        <a class="btn btn--primary" href="#projects">VEDI I CASE STUDY</a>
+        <a class="btn btn--secondary" href="about.html">LA MIA STORIA</a>
+      </div>
+    </div>
+
+    <figure class="salotto__portrait" aria-hidden="true">
+      <img src="assets/img/home/foto.png" alt="">
+    </figure>
+ </div>
+</section>
+
+<!-- CONTENUTO NORMALE DOPO -->
+<main class="content">
+  <section id="projects" class="projects" aria-label="Projects">
+    <div class="container">
+      <h2 class="projects__title">Case Study</h2>
+    </div>
+
+
+      <section class="projectStep">
+  <div class="container">
+    <article class="projectCard">
+      <a class="projectCard__media" href="project/ecodream/">
+        <img src="assets/img/home/cover-ecodream.jpg" alt="Ecodream">
+      </a>
+      <div class="projectCard__info">
+        <h3 class="projectCard__name">Ecodream</h3>
+        <p class="projectCard__meta">UX/UI case study</p>
+        <a class="btn btn--primary" href="project/ecodream/">SCOPRI IL CASE STUDY</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="projectStep">
+  <div class="container">
+    <article class="projectCard">
+      <a class="projectCard__media" href="project/lmsc/">
+        <img src="assets/img/home/cover-lmsc.jpg" alt="Last Minute Sotto Casa">
+      </a>
+      <div class="projectCard__info">
+        <h3 class="projectCard__name">Last Minute Sotto Casa</h3>
+        <p class="projectCard__meta">Landing page redesign</p>
+        <a class="btn btn--primary" href="project/lmsc/">SCOPRI IL CASE STUDY</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="projectStep">
+  <div class="container">
+    <article class="projectCard">
+      <a class="projectCard__media" href="project/lookbook/">
+        <img src="assets/img/home/cover-lookbook.jpg" alt="LookBook">
+      </a>
+      <div class="projectCard__info">
+        <h3 class="projectCard__name">LookBook</h3>
+        <p class="projectCard__meta">Concept editoriale & UI writing</p>
+        <a class="btn btn--primary" href="project/lookbook/">SCOPRI IL CASE STUDY</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section class="projectStep">
+  <div class="container">
+    <article class="projectCard">
+      <a class="projectCard__media" href="project/meditactive/">
+        <img src="assets/img/home/cover-meditactive.jpg" alt="MeditActive">
+      </a>
+      <div class="projectCard__info">
+        <h3 class="projectCard__name">MeditActive</h3>
+        <p class="projectCard__meta">Concept app & UI design</p>
+        <a class="btn btn--primary" href="./project/meditactive/">SCOPRI IL CASE STUDY</a>
+      </div>
+    </article>
+  </div>
+</section>
+
+  </main>
+
+<footer class="footer footer--simple" id="contact" aria-labelledby="footerTitle">
+  <img class="footer__arch" src="assets/img/home/art.jpg" alt="" aria-hidden="true">
+
+  <div class="footer__inner">
+    <h2 id="footerTitle">Entriamo in contatto</h2>
+    <p class="footer__text">
+      Se vuoi parlarmi di un progetto o semplicemente scrivermi, <br> trovi tutto nella pagina contatti.
+    </p>
+
+    <div class="footer__actions">
+      <a class="btn btn--primary" href="contact.html">VAI AI CONTATTI</a>
+    </div>
+
+    <div class="footer__social" aria-label="Social">
+  <a class="iconBtn" href="https://www.linkedin.com/in/ilaria-mansi/" target="_blank" rel="noopener" aria-label="LinkedIn">
+    <img src="assets/img/home/linkedin.png" alt="">
+  </a>
+
+  <a class="iconBtn" href="https://github.com/ilariamansi/portfolio.git" target="_blank" rel="noopener" aria-label="GitHub">
+    <img src="assets/img/home/github.png" alt="">
+  </a>
+</div>
+
+   <div class="footer__meta">
+  <a class="footer__copy" href="#top">ILARIA MANSI</a>
+  <span class="footer__sep" aria-hidden="true">·</span>
+  <span class="footer__copy">© 2026</span>
+</div>
+  </div>
+</footer>
+
+  
+</body>
+</html>
+<!-- deploy -->
