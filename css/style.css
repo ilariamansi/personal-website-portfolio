@@ -627,11 +627,11 @@ body.is-home main.content{
   }
 
   .heroConcept__statement{
-    margin-top: 24px;
-    font-size: 12px;
+    margin-top: 40px;
+    font-size: 16px;
     line-height: 1.7;
     letter-spacing: .10em;
-    max-width: 28ch;
+    max-width: 38ch;
   }
 
   .heroConcept__panelWrap{
@@ -778,6 +778,7 @@ body.is-home main.content{
 @media (min-width: 701px) and (max-width: 980px){
   .salottoSection .salotto{
     text-align: left;
+    
   }
 
   .salotto__stack{
@@ -1530,7 +1531,10 @@ body.is-home main.content{
   font-size: clamp(28px, 2.8vw, 36px);
   line-height: 1.45;
 }
-
+.is-about .uxSection--oltre .quoteGlass__text{
+  text-align: center;
+  margin: 0 auto;
+}
 @media (max-width: 980px){
   .is-about .uxKicker,
   .is-contact .uxKicker,
@@ -1852,5 +1856,32 @@ body.is-home main.content{
   .is-cv .uxCtaRow .btn{
     margin-left: 0;
     margin-right: 0;
+  }
+}
+@media (max-width: 700px){
+  .salottoSection{
+    padding-top: 170px !important;
+  }
+}
+@media (max-width: 980px){
+  .is-cv .uxSection--hero .uxGrid2{
+    display: grid;
+    grid-template-columns: 1fr !important;
+    gap: 28px;
+  }
+
+  .is-cv .uxSection--hero .uxGrid2 > :first-child{
+    order: 1;
+  }
+
+  .is-cv .uxSection--hero .uxGrid2 > :last-child{
+    order: 2;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .is-cv .uxSection--hero .uxLead{
+    margin-top: 0;
+    max-width: 100%;
   }
 }
