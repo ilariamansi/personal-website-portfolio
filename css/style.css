@@ -721,7 +721,7 @@ margin:30px;
 
 .salotto__portrait{
   position: absolute;
-  right: -98px;
+  right: -100px;
   bottom: -120px;
   width: clamp(200px, 22vw, 360px);
   pointer-events: none;
